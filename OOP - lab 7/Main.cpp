@@ -1,10 +1,14 @@
 //OOP LAB 7
 //Authors: Ilyas, Liam, Tony
 
-//we must re arrange our code to look like his
-
 #include "Header.h"
-#include "RectCirc.cpp"
+#include "BMW.h"
+#include "Circle.h"
+#include "Drawable.h"
+#include "Mazda.h"
+#include "Rectangle.h"
+#include "Shape.h"
+#include "Vehicle.h"
 
 //Polymorphic Draw Function, draws any shape or vehicle.
 void Draw(Shape* shape) {
