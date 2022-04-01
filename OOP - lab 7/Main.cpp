@@ -1,6 +1,10 @@
 //OOP LAB 7
 //Authors: Ilyas, Liam, Tony
-
+/********************************************//**
+ * \brief Main code that calls on the objects
+ * Authors: Liam, Ilyas, Tony
+ * Date: 2022-04-01
+ ***********************************************/
 #include "Header.h"
 #include "BMW.h"
 #include "Circle.h"
