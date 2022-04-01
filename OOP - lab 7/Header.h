@@ -1,6 +1,10 @@
 #pragma once
 /********************************************//**
- * @brief Header File....
+ * @brief Header File that defines the libraries we use for all our code
+ * 
+ * Includes two libraries ' iostream ' and ' cmath ' \n
+ * Sets the standard library for namespace ' std '
+ * 
  * @authors Liam
  * @authors Ilyas
  * @authors Tony
