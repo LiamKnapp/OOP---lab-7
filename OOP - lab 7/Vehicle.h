@@ -1,7 +1,10 @@
 #pragma once
 
-/********************************************//*
- * @brief Vehicle class....
+/********************************************//**
+ * @brief Class called Vehicle
+ * 
+ * this class....
+ * 
  * @authors Liam
  * @authors Ilyas
  * @authors Tony

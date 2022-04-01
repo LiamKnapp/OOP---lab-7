@@ -1,7 +1,10 @@
 #pragma once
 
 /********************************************//**
- * @brief Shape class....
+ * @brief Class called Shape
+ * 
+ * this class
+ * 
  * @authors Liam
  * @authors Ilyas
  * @authors Tony

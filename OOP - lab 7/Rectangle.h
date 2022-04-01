@@ -1,10 +1,12 @@
 #pragma once
 
 /********************************************//**
- * @brief Class called Rectangle inherits from class Shape \n
+ * @brief Class called Rectangle inherits from class Shape 
+ * 
  * Class Rectangle features two private integer variables ' row ' and ' col ' \n
  * This class will create my rectangles with the defined lengths and widths \n
  * The class will be able to calculate the area of the rectangle defined and print a visual of the rectangle
+ * 
  * @authors Liam
  * @date 2022-04-01
  ***********************************************/

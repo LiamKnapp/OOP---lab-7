@@ -1,6 +1,10 @@
 #pragma once
 /********************************************//**
- * @brief BMW class....
+ * @brief Class called BMW inherits from class Vehicle
+ * 
+ * This class has no private variables \n
+ * The class will print the a vehicle and a print statement to let the user know the car is driveing
+ * 
  * @authors Tony
  * @date 2022-04-01
  ***********************************************/

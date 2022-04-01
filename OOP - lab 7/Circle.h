@@ -1,7 +1,12 @@
 #pragma once
 
 /********************************************//**
- * @brief Class Circle......
+ * @brief Class called Circle inherits from class Shape
+ * 
+ * Class circle features one private integer variable ' col ' \n
+ * This class will create my circles with the defined circumference \n
+ * The class will be able to calculate the area of the circle defined and print a visual of the circle
+ * 
  * @authors Ilyas
  * @date 2022-04-01
  ***********************************************/
