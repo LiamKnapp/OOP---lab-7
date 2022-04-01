@@ -1,7 +1,10 @@
 #pragma once
 
 /********************************************//**
- * @brief Rectangle class....
+ * @brief Class called Rectangle inherits from class Shape \n
+ * Class Rectangle features two private integer variables ' row ' and ' col ' \n
+ * This class will create my rectangles with the defined lengths and widths \n
+ * The class will be able to calculate the area of the rectangle defined and print a visual of the rectangle
  * @authors Liam
  * @date 2022-04-01
  ***********************************************/
@@ -16,7 +19,7 @@ class Rectangle : public Shape {
 public:
 
 	  /**
-		* @brief This function.....
+		* @brief This function is used to set the private variable row to the integer that got passed as a argument
 		* @author Liam
 		* @param a an integer argument
 		* @return row an integer argument
@@ -28,7 +31,7 @@ public:
 	}
 
 	  /**
-		* @brief This function.....
+		* @brief This function is used to set the private variable row to the integer that got passed as a argument
 		* @author Liam
 		* @param a an integer argument
 		* @return col an integer argument
@@ -40,20 +43,21 @@ public:
 	}
 
 	/**
-	  * @brief This function.....
+	  * @brief This function is used to calculate the area between the private variables ' row ' and ' col '
 	  * @author Liam
 	  * @param No arguments
-	  * @return NULL no return type void
+	  * @return area an integer argument
 	  * @date 2022-04-01
 	  */
-	void Area() { 
+	int Area() { 
 		int area = row * col;
 
 		cout << "Rectangle Area: " << area << endl;
+		return area;
 	}
 
 	  /**
-		* @brief This function.....
+		* @brief This function prints the rectangle shape by iterating through a for loop and printing a ' * ' according to the length and width of the private variables ' row ' and ' col '
 		* @author Liam
 		* @param No arguments
 		* @return NULL no return type void
