@@ -1,6 +1,8 @@
 //OOP LAB 7
 //Authors: Ilyas, Liam, Tony
 
+//we must re arrange our code to look like his
+
 #include "Header.h"
 #include "RectCirc.cpp"
 
