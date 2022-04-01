@@ -1,20 +1,42 @@
 #pragma once
+
+/********************************************//**
+ * @brief Class Circle......
+ * @authors Ilyas
+ * @date 2022-04-01
+ ***********************************************/
+
 #include "Header.h"
 #include "Shape.h"
 
 class Circle :public Shape {
-	int col = 0;
+	int col = 0; 
 
 public:
 
-	void setCol(int a) {
-		col = a;
+	/**
+	  * @brief This function.....
+	  * @author Ilyas
+	  * @param a an integer argument
+	  * @return col an integer argument
+	  * @date 2022-04-01
+	  */
+	int setCol(int a) { 
+		col = a; 
+		return col;
 	}
 
-	void Area() {
+	/**
+	  * @brief This function.....
+	  * @author Ilyas
+	  * @param no arguments
+	  * @return NULL type void
+	  * @date 2022-04-01
+	  */
+	void Area() { 
 
 		//find radius
-		int rad = col / 2;
+		int rad = col / 2; /// int value rad. to find the radius
 
 		//find area
 		double area = 3.14 * pow(rad, 2);
@@ -22,7 +44,14 @@ public:
 		cout << "Circle Area: " << area << endl;
 	}
 
-	void Draw() {
+	/**
+	  * @brief This function ......
+	  * @author Ilyas
+	  * @param no arguments
+	  * @return NULL type void
+	  * @date 2022-04-01
+	  */
+	void Draw() { 
 
 		int rad = col / 2;
 		int w = rad;
@@ -31,7 +60,7 @@ public:
 
 		char ch = '*';
 
-		for (y = w; y >= -w; y -= 2) {
+		for (y = w; y >= -w; y -= 2) { 
 			for (x = -l; x <= l; x++) {
 
 				int path = sqrt(pow(x, 2) + pow(y, 2));
