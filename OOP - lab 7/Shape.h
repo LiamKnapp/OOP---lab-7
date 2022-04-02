@@ -3,7 +3,7 @@
 /********************************************//**
  * @brief Class called Shape
  * 
- * this class
+ * This class contains only one function that being a virtual void that will allow the shapes to be drawn
  * 
  * @authors Liam
  * @authors Ilyas

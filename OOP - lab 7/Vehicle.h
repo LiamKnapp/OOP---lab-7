@@ -1,9 +1,9 @@
 #pragma once
 
 /********************************************//**
- * @brief Class called Vehicle
+ * @brief Class called Vehicle inherits from class Shape
  * 
- * this class....
+ * This class only contains one function that all our car companies will need to use that being a virutal void
  * 
  * @authors Liam
  * @authors Ilyas
@@ -17,7 +17,7 @@
 class Vehicle : public Shape {
 public:
 	/**
-	  * this function.....
+	  * This function will let the cars start driveing when called.
 	  * @author Tony
 	  * @param 
 	  * @return
