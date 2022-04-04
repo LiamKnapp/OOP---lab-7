@@ -14,7 +14,7 @@
 #include "Header.h"
 #include "Shape.h"
 
-class Circle :public Shape {
+class Circle :public Shape {  
 	int col = 0; 
 
 public:

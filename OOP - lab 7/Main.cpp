@@ -16,47 +16,37 @@
 #include "Vehicle.h"
 
 //Polymorphic Draw Function, draws any shape or vehicle.
-void Draw(Shape* shape) {
-    shape->Draw();
-
+void Draw(Drawable& d) {
+    d.Draw();
 }
 //Polymorphic Drive Function, drives any vehicle.
-void Drive(Vehicle* vehicle) {
-    vehicle->Drive();
+void Drive(Vehicle& vehicle) {
+    vehicle.Drive(); 
 }
 
 int main(void)
 {
-    Shape* polymorphicshape = NULL;
-    Vehicle* polymorphicvehicle = NULL;
-
-    /*  RECTANGLE STUFF  */
+ /*  RECTANGLE STUFF  */
     Rectangle rectangle;
     rectangle.setCol(6);
     rectangle.setRow(4);
-    polymorphicshape = &rectangle;
-    Draw(polymorphicshape);
+    Draw(rectangle); 
     rectangle.Area();
 
     /*  CIRCLE STUFF  */
     Circle circle;
     circle.setCol(6);
-    polymorphicshape = &circle;
-    Draw(polymorphicshape);
+    Draw(circle); 
     circle.Area();
 
     /* BMW STUFF*/
     BMW bmw;
-    polymorphicshape = &bmw;
-    polymorphicvehicle = &bmw; 
-    Draw(polymorphicshape); 
-    Drive(polymorphicvehicle);   
-
+    Draw(bmw);  
+    Drive(bmw);    
+    
     /* MAZDA STUFF*/
     MAZDA mazda;
-    polymorphicshape = &mazda;
-    polymorphicvehicle = &mazda;
-    Draw(polymorphicshape);
-    Drive(polymorphicvehicle); 
-   
+    Draw(mazda); 
+    Drive(mazda);   
+    return 0; 
 }

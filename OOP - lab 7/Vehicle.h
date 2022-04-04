@@ -14,7 +14,7 @@
 #include "Header.h"
 #include "Shape.h"
 
-class Vehicle : public Shape {
+class Vehicle : public Drawable {     
 public:
 	/**
 	  * This function will let the cars start driveing when called.

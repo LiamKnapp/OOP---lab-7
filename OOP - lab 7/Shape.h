@@ -12,8 +12,9 @@
  ***********************************************/
 
 #include "Header.h"
+#include "Drawable.h"
 
-class Shape {
+class Shape : public Drawable {  
 public:
 	/**
 	  * This function will let the shapes be drawn when called
@@ -22,6 +23,5 @@ public:
 	  * @return
 	  * @date 2022-04-01
 	  */
-	virtual void Draw() = 0 {
-	}
+
 };

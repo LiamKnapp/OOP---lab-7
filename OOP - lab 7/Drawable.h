@@ -10,3 +10,16 @@
 
 
 #include "Header.h"
+
+class Drawable { 
+public:
+	/**
+	  * This function will let the shapes be drawn when called
+	  * @author Ilyas
+	  * @param
+	  * @return
+	  * @date 2022-04-01
+	  */
+	virtual void Draw() = 0 {
+	}
+};

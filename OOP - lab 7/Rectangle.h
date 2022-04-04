@@ -14,7 +14,7 @@
 #include "Header.h"
 #include "Shape.h"
 
-class Rectangle : public Shape {
+class Rectangle : public Shape {  
 	int row = 0;
 	int col = 0;
 
@@ -28,8 +28,8 @@ public:
 		* @date 2022-04-01
 		*/
 	int setRow(int a) { 
-		row = a;
-
+		row = a; 
+		return a; 
 	}
 
 	  /**
@@ -39,9 +39,9 @@ public:
 		* @return col an integer argument
 		* @date 2022-04-01
 		*/
-	void setCol(int a) { 
+	int setCol(int a) { 
 		col = a;
-
+		return a; 
 	}
 
 	/**
