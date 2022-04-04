@@ -21,7 +21,8 @@ public:
 
 	/**
 	  * @brief This function will set the private int value col to the value specified by the function parameter
-	  * @author Ilyas
+	  * @authors Ilyas
+	  * @authors Liam
 	  * @param a an integer argument
 	  * @return col an integer argument
 	  * @date 2022-04-01
@@ -34,6 +35,7 @@ public:
 	/**
 	  * @brief This function calculates the are of the circle by finding the radius then multiplying pi to the radius power of 2
 	  * @author Ilyas
+	  * @authors Liam
 	  * @param no arguments
 	  * @return NULL type void
 	  * @date 2022-04-01
@@ -52,6 +54,7 @@ public:
 	/**
 	  * @brief This function will draw the circle shape given its size. It will use for loops to iterate through each point where it needs to place a ' * ' to create the correct circle.
 	  * @author Ilyas
+	  * @authors Liam
 	  * @param no arguments
 	  * @return NULL type void
 	  * @date 2022-04-01

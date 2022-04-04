@@ -33,7 +33,7 @@ public:
 	}
 
 	  /**
-		* @brief This function is used to set the private variable row to the integer that got passed as a argument
+		* @brief This function is used to set the private variable col to the integer that got passed as a argument
 		* @author Liam
 		* @param a an integer argument
 		* @return col an integer argument

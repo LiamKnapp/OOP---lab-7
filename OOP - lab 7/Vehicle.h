@@ -19,8 +19,8 @@ public:
 	/**
 	  * This function will let the cars start driveing when called.
 	  * @author Tony
-	  * @param 
-	  * @return
+	  * @param None
+	  * @return None
 	  * @date 2022-04-01
 	  */
 	virtual void Drive() = 0 {

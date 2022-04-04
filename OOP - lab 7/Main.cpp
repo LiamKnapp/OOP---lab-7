@@ -15,11 +15,24 @@
 #include "Shape.h"
 #include "Vehicle.h"
 
-//Polymorphic Draw Function, draws any shape or vehicle.
+ /**
+   * @brief This function will print to the console any vehicle or shape passed to it.
+   * @author Ilyas
+   * @param A drawable object
+   * @return No return
+   * @date 2022-04-04
+   */
 void Draw(Drawable& d) {
     d.Draw();
 }
-//Polymorphic Drive Function, drives any vehicle.
+
+/**
+   * @brief This function will display that the vehicle is driving.
+   * @author Ilyas
+   * @param A vehicle object
+   * @return No return
+   * @date 2022-04-04
+   */
 void Drive(Vehicle& vehicle) {
     vehicle.Drive(); 
 }

@@ -17,10 +17,10 @@
 class Shape : public Drawable {  
 public:
 	/**
-	  * This function will let the shapes be drawn when called
+	  * This function will let the shapes be drawn when called 
 	  * @author Ilyas
-	  * @param
-	  * @return
+	  * @param None
+	  * @return None
 	  * @date 2022-04-01
 	  */
 
