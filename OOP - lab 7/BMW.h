@@ -17,7 +17,7 @@ class BMW :public Vehicle {
 public:
 
 	/**
-	  * this function.....
+	  * This function will print a BMW brand car when called
 	  * @author Tony
 	  * @param no arguments
 	  * @return NULL type void
@@ -37,7 +37,7 @@ public:
 	}
 
 	/**
-	  * this function.....
+	  * This function will print that the BMW vehicle is driveing when called
 	  * @author Tony
 	  * @param no arguments
 	  * @return NULL type void

@@ -16,7 +16,7 @@
 class Shape {
 public:
 	/**
-	  * this function.....
+	  * This function will let the shapes be drawn when called
 	  * @author Ilyas
 	  * @param
 	  * @return
