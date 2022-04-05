@@ -37,6 +37,17 @@ void Drive(Vehicle& vehicle) {
     vehicle.Drive(); 
 }
 
+/**
+   * @brief This function will display the area of any shape passed to it.
+   * @author Tony
+   * @param A shape object
+   * @return No return
+   * @date 2022-04-04
+   */
+void Area(Shape& shape) {
+    shape.Area();
+}
+
 int main(void)
 {
  /*  RECTANGLE STUFF  */
@@ -44,22 +55,22 @@ int main(void)
     rectangle.setCol(6);
     rectangle.setRow(4);
     Draw(rectangle); 
-    rectangle.Area();
+    Area(rectangle); 
 
     /*  CIRCLE STUFF  */
     Circle circle;
     circle.setCol(6);
     Draw(circle); 
-    circle.Area();
-
+    Area(circle);  
     /* BMW STUFF*/
-    BMW bmw;
-    Draw(bmw);  
-    Drive(bmw);    
-    
+    BMW bmw; 
+    Draw(bmw);   
+    Drive(bmw);     
+   
     /* MAZDA STUFF*/
     MAZDA mazda;
-    Draw(mazda); 
+    Draw(mazda);  
+   
     Drive(mazda);   
     return 0; 
 }

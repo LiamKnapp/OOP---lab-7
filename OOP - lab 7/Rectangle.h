@@ -51,11 +51,11 @@ public:
 	  * @return area an integer argument
 	  * @date 2022-04-01
 	  */
-	int Area() { 
+	void Area() { 
 		int area = row * col;
 
 		cout << "Rectangle Area: " << area << endl;
-		return area;
+		//return area;
 	}
 
 	  /**

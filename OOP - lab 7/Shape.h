@@ -17,11 +17,12 @@
 class Shape : public Drawable {  
 public:
 	/**
-	  * This function will let the shapes be drawn when called 
-	  * @author Ilyas
+	  * This function will calculate the area of any shape. 
+	  * @author Tony
 	  * @param None
 	  * @return None
-	  * @date 2022-04-01
+	  * @date 2022-04-04
 	  */
-
+	virtual void Area() = 0 {
+	}
 };
